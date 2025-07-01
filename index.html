@@ -1,40 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Drone Aerial Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroVision Drone Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>Stunning Aerial Views</h1>
-      <p>Drone photography for real estate</p>
-      <a href="#contact" class="btn">Book a Flight</a>
-    </div>
-  </header>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>AeroVision Drone Services</h1>
+            <p>Capturing your world from a new perspective.</p>
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+    </header>
 
-  <section class="gallery">
-    <h2>Featured Shots</h2>
-    <div class="grid">
-      <img src="https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?auto=format&fit=crop&w=800&q=80" alt="">
-      <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="">
-      <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" alt="">
-    </div>
-  </section>
+    <main>
+        <section id="about">
+            <h2>About AeroVision</h2>
+            <p>We provide high-quality aerial photography and videography services for real estate, events, and commercial projects. Our certified pilots use state-of-the-art drones to deliver stunning results.</p>
+        </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-  </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-home"></i>
+                    <h3>Real Estate</h3>
+                    <p>Showcase properties with breathtaking aerial shots and virtual tours.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Events</h3>
+                    <p>Capture the magic of your events from a unique bird's-eye view.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-building"></i>
+                    <h3>Commercial</h3>
+                    <p>High-resolution imagery for construction, inspections, and marketing.</p>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>© <span id="year"></span> Drone Portfolio</p>
-  </footer>
+        <section class="gallery">
+            <h2>Featured Work</h2>
+            <div class="grid">
+                <img src="https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?auto=format&fit=crop&w=800&q=80" alt="Aerial view of a coastal road">
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Modern house from above">
+                <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" alt="Luxury home with a pool">
+                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" alt="Suburban neighborhood aerial view">
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> AeroVision Drone Services. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
